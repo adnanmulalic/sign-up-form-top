@@ -1,5 +1,6 @@
 body {
     height: 100vh;
+    font-family: 'Outfit', sans-serif;
 }
 #body {
     display: flex;
@@ -43,9 +44,18 @@ img {
 #form {
     display: flex;
 }
+input {
+    font-family: 'Outfit', sans-serif;
+    border: 1px solid gray;
+}
+input:focus {
+    border: 4px solid blue;
+}
 fieldset {
     display: flex;
     flex-wrap: wrap;
+    column-gap: 2rem;
+    border: none;
 }
 .form-row {
     display: flex;
