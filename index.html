@@ -7,9 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="javascript.js" defer></script>
     <title>Sign-up Form</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Outfit&family=Quicksand&display=swap');
-    </style> 
+    <style>@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');</style> 
 </head>
 <body>
     <div id="body">
@@ -54,6 +52,7 @@
                     <div class="form-row">
                     <label for="password">Password</label>
                     <input type="password" required minlength="4" maxlength="10" name="password" id="password">
+                    <p id="hidden-paragraph" hidden>*Passwords do not match</p>
                     </div>
                     <div class="form-row">
                     <label for="confirm-password">Confirm Password</label>
